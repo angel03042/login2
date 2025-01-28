@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <section>
+            <div class="text">
+                <h1>Sign up</h1>
+                <p>Welcome our - <br>
+                    favorite music
+                </p>
+            </div>
+            <form action="">
+                <!-- USUARIO -->
+                <div class="inputs">
+                    <label for="username" id="labels">USERNAME</label>
+                    <input class="username" type="text" name="text" id="username" minlength="5" required>
+                </div>
+                <p class="verificar" id="verificar_usuario">Usuario debe ser mayor a 5 caracteres</p>
+                <!-- EMAIL -->
+                <div class="inputs">
+                    <label for="email" id="labels">EMAIL</label>
+                    <input class="email" type="email" name="email" id="email" required>
+                </div>
+                <p class="verificar" id="verificar_email">Verifique su email</p>
+                <!-- PASSWORD -->
+                <div class="inputs">
+                    <label for="password" id="labels">PASSWORD</label>
+                    <input class="password" type="password" name="password" id="password" required>
+                </div>
+                <p class="verificar" id="verificar_password">Minimo 6 caracteres</p>
+                <div class="btn">
+                    <button type="submit" id="sudmit">SIGN UP NOW</button>
+                    <a href="">I am already a member</a>
+                </div>
+            </form>
+        </section>
+        <img src="/img/music.svg" alt="girl_music">
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
